@@ -28,7 +28,7 @@ class remi(
         enabled     => $php55,
         gpgcheck    => 1,
         gpgkey      => 'file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi',
-        descr       => 'Les RPM de remi de PHP 5.5 pour Enterprise Linux $releasever - $basearch'
+        descr       => 'Les RPM de remi de PHP 5.5 pour Enterprise Linux $releasever - $basearch',
         includepkgs => $includepkgs,
         exclude     => $exclude,
     }
@@ -39,7 +39,7 @@ class remi(
         enabled     => $extras,
         gpgcheck    => 1,
         gpgkey      => 'file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi',
-        descr       => 'Les RPM de remi en test pour Enterprise Linux $releasever - $basearch'
+        descr       => 'Les RPM de remi en test pour Enterprise Linux $releasever - $basearch',
         includepkgs => $includepkgs,
         exclude     => $exclude,
     }
